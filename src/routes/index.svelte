@@ -6,7 +6,10 @@
 <svelte:head>
   <title>SvelteKit linting CSS Demo</title>
   <html lang="en-GB" />
-  <meta name="description" content="Lint CSS in SvletKit with stylelint." />
+  <meta
+    name="description"
+    content="SvelteKit CSS Stylelint: how you can lint vanilla CSS within your Svelte source files using stylelint accessibility and best practice rules."
+  />
 </svelte:head>
 
 <main class="container">
@@ -70,9 +73,9 @@
     font-size: 1.25rem;
   }
 
-  /* .heading {
+  .heading {
     color: var(--colour-dark-lighter-20);
-  } */
+  }
 
   @media (min-width: 768px) {
     .content {
