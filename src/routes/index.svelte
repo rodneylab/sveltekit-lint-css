@@ -73,10 +73,6 @@
     font-size: 1.25rem;
   }
 
-  .heading {
-    color: var(--colour-dark-lighter-20);
-  }
-
   @media (min-width: 768px) {
     .content {
       width: 640px;
