@@ -1,11 +1,11 @@
 <script>
-	import '@fontsource/montserrat';
+	import '$lib/styles/global.css';
 	import '@fontsource/hind';
+	import '@fontsource/montserrat';
 </script>
 
 <svelte:head>
 	<title>SvelteKit linting CSS Demo</title>
-	<html lang="en-GB" />
 	<meta
 		name="description"
 		content="SvelteKit CSS Stylelint: how you can lint vanilla CSS within your Svelte source files using stylelint accessibility and best practice rules."
@@ -20,27 +20,6 @@
 </main>
 
 <style>
-	:global(html) {
-		color: var(--colour-light);
-	}
-
-	:global(body) {
-		margin: 0;
-		font-family: Hind;
-		font-weight: var(--font-weight-normal);
-	}
-
-	:global(:root) {
-		--colour-theme: hsl(71 58% 64%); /* june bud */
-		--colour-theme-lighter-20: hsl(71 58% 51%);
-		--colour-light: hsl(60 24% 96%); /* baby powder */
-		--colour-dark: hsl(25 29% 12%); /* black chocolate */
-		--colour-dark-lighter-20: hsl(71 58% 10%); /* black chocolate */
-
-		--font-weight-normal: 400;
-		--font-weight-bold: 700;
-	}
-
 	.container {
 		display: flex;
 		min-height: 100vh;

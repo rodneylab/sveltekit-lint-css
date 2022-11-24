@@ -1,0 +1,20 @@
+html {
+	color: var(--colour-light);
+}
+
+body {
+	margin: 0;
+	font-family: Hind;
+	font-weight: var(--font-weight-normal);
+}
+
+:root {
+	--colour-theme: hsl(71 58% 64%); /* june bud */
+	--colour-theme-lighter-20: hsl(71 58% 51%);
+	--colour-light: hsl(60 24% 96%); /* baby powder */
+	--colour-dark: hsl(25 29% 12%); /* black chocolate */
+	--colour-dark-lighter-20: hsl(71 58% 10%); /* black chocolate */
+
+	--font-weight-normal: 400;
+	--font-weight-bold: 700;
+}
